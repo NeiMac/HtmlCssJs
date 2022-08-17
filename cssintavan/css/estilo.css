@@ -1,0 +1,55 @@
+
+/* Seletor Universal 
+*{
+    border: 1px solid red;
+}
+
+
+Seletor Texto
+h1 {
+    color: blue;
+}
+
+
+
+Seletor de classe
+.verde {
+    color: green;
+}
+
+.amarelo{
+    color: yellow;
+}
+
+Seletor de Classe
+#elemento {
+    color: brown;
+}
+
+
+Seletor de filho
+
+div>p {
+    color: chartreuse;
+}
+
+
+Seletor descendente
+
+ul a {
+    color: yellow;
+}
+
+Seletor de iemão adjacente
+
+h1+h2{
+    color: red;
+}
+
+Seletor de irmão geral
+
+h2~p {
+    color: yellow;
+}
+
+*/

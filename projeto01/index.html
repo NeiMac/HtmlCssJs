@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Meu primeiro site</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Sobre a empresa <br></h1>
+        Essa é uma empresa tal....
+        <hr>
+        <h2>Título 2</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.<br></p>
+        <p>Nossos funcionários</p>
+        <hr>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+        <p>Nossos funcionários</p>
+        <h3>Título 3</h3>
+
+        <h4>Título 4</h4>
+        Esse é um texto <b>negrito</b><br>
+        Agora usando <strong>Negrito</strong><br>
+        Usando <i>Itálico</i> agora <em>Itálico</em><br>
+        Agora <u>underline</u><br>
+        Usando <strike>Usando risco</strike><br>
+
+        <h5>Usando lista ordenada e não ordenada</h5>
+        
+        <!--Lista não Ordenada circle, square, disc-->        
+        <ul type="disc">
+            <li>Ordenada 01</li>
+            <li>Ordenada 02</li>
+        </ul>
+
+        <!--Lista ordenada 1, A, a, i, I-->
+        <h5>Perguntas</h5>
+        <ol type="1">
+            <li>comida favorita</li>
+            <li>carro favorito</li>
+            <li>série favorita</li>
+        </ol>
+        <h6></h6>
+
+        <h1>Inserir imagem</h1>
+        <img src="/projeto01/imagens/ferrari.jpg" width="200">
+
+
+        <h1>Utilizando LINKS</h1>
+        <p>by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc</p>
+        <a href="https://www.cnnbrasil.com.br/business/queda-do-diesel-aproxima-preco-interno-da-paridade-internacional-diz-associacao/">Clique aqui para site externo</a><br>
+        <a href="desafio01.html">Clique aqui para site interno</a>
+
+        <h1>Produtos</h1>
+        <table border="2" width="400">
+            <tr>
+             <th>Código</th>
+             <th>Produto</th>
+             <th>Imagem</th>
+             <th>Preço</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Ferrari</td>
+                <td><img src="imagens/ferrari.jpg" alt="Ferrari" width="200"></td>
+                <td>R$ 900,00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Desconto</td>
+                <td colspan="3">Cupom 01</td>
+            </tr>
+            <tr>
+                <td colspan="3">Cupom 02</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td colspan="3">R$ 900,00</td>
+            </tr>
+        </table>
+
+        <h2>Login</h2>
+        <form>
+            Login<br>
+            <input type="text" name="login"><br>
+
+            Senha:<br>
+            <input type="password" name="senha"><br>
+
+            <input type="submit" value="Logar">
+        </form>
+
+        <h2>Cadastre-se</h2>
+
+        <form>
+            Login: <br>
+            <input type="text" name="login"><br><br>
+            
+            Sexo: <br>
+            <input type="radio" name="sexo">Masculino<br>
+            <input type="radio" name="sexo">Feminino<br><br>
+
+            Interesse: <br>
+            <input type="checkbox" name="interesse">Futebol<br>
+            <input type="checkbox" name="interesse">Carro<br>
+            <input type="checkbox" name="interesse">Avião<br><br>
+
+            Estado: <br>
+            <select name="estado" id="estados">
+                <option value="sp">SP</option>
+                <option value="sc">SC</option>
+                <option value="ba">BA</option>
+                <option value="pr">PR</option>
+                <option value="rj">RJ</option>
+            </select>
+
+            Observações: <br>
+            <textarea name="area" id="" cols="30" rows="10"></textarea><br>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+
+        <h2>Caracteres especiais</h2>
+
+        <p></p>
+    </body>
+</html>
